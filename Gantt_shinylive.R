@@ -1,7 +1,7 @@
 ## Convert the shiny app into the assets for running the app in a browser
 
 shinylive::export(
- appdir = "Gantt",
+ appdir = "ShinyGantt",
  destdir = "docs"
 )
 
