@@ -7,3 +7,4 @@ shinylive::export(
 
 ## Run the following in an R session to serve the app: 
 httpuv::runStaticServer("docs")
+
