@@ -25,7 +25,7 @@ ui <- fluidPage(
    tags$h3("Task Table View"),
    tags$hr(),
    DTOutput(outputId = "tableTasks"),
-   downloadButton("downloadExcel", "Download Table as Excel"),
+   downloadButton("downloadCSV", "Download Table as CSV file"),
    tags$h3("Gantt Chart"),
    tags$h4("Right-click the Gantt chart to copy or save as image."),
    tags$hr(),
