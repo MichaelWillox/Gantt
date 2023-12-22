@@ -119,12 +119,12 @@ server <- function(input, output) {
  })
  
  
- output$downloadExcel <- downloadHandler(
+ output$downloadCSV <- downloadHandler(
   filename = function() {
-   paste("TaskData-", Sys.Date(), ".xlsx", sep="")
+   paste("TaskData-", Sys.Date(), ".csv", sep="")
   },
   content = function(file) {
-   write_xlsx(df$data, path = file)
+   write.csv(df$data, path = file)
   }
  )
  
