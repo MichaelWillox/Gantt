@@ -1,6 +1,6 @@
 # Interactive Gantt Chart Creator in Shiny
 ## Overview
-This Shiny application is an innovative tool for creating interactive Gantt charts. It's designed for ease of use in project planning, allowing users to define tasks, set durations, and visualize their project's timeline.
+This Shiny app interactively creates Gantt charts. It allows users to plan projects, define tasks with start and end dates, and visualize their project's timeline in a simple, easy-to-understand graph. I made this app after spending far too long creating a simple Gantt chart in a spreadsheet. With this app, a Gantt chart and table for a project with 10 tasks can be created in about a minute.
 
 ## Features
 * User-Friendly Chart Creation: Initiate your project by naming it and then add tasks as required.
