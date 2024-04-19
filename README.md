@@ -1,7 +1,7 @@
 ---
 title: "Michael Willox"
 author: "Driven by Data, Inspired by Insight"
-date: "`format(Sys.Date(), "%B %d, %Y")'"
+date: "April 18, 2024"
 output: 
   prettydoc::html_pretty:
     theme: architect
